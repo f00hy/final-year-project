@@ -4,13 +4,13 @@ Report: [Evaluate the Performance of University Course Timetabling Problem with 
 
 ### Database Setup
 
-1. Import `database_schema.sql` into MySQL to create the `university_timetabling` database and all required tables.
-2. After that, import `data_generation.sql` into the same database to populate it with the sample data used in this project.
+1. Import `sql/database_schema.sql` into MySQL to create the `university_timetabling` database and all required tables.
+2. After that, import `sql/data_generation.sql` into the same database to populate it with the sample data used in this project.
 
 ### Data Reference
 
-The file `data.txt` documents the course, lecturer, and class information that is encoded in:
-- `data_generation.sql` (static SQL inserts), and
+The file `sql/data.txt` documents the course, lecturer, and class information that is encoded in:
+- `sql/data_generation.sql` (static SQL inserts), and
 - `src/DataGenerator.java` (logic that generates classes and group–class assignments).
 
 ### Generating Classes and Group Assignments (First Run Only)
@@ -35,7 +35,7 @@ The Java entry point is `src/Main.java`. When run in its default (post–data-ge
 ### Summarizing Results
 
 After `Main.java` finishes all 10 runs and the `output/1` to `output/10` folders exist:
-1. Run `results_generation.py`.
+1. Run `scripts/results_generation.py`.
 2. The script reads each `output/i/statistics.txt` file,
 3. Computes summary statistics across the experiments, and
 4. Writes a consolidated CSV file to `output/results.csv`.
