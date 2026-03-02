@@ -16,29 +16,29 @@ The file `data.txt` documents the course, lecturer, and class information that i
 ### Generating Classes and Group Assignments (First Run Only)
 
 On the **first run**, you must generate classes and group–class assignments via `DataGenerator`:
-- Open `src/Main.java`.
-- Uncomment the block that creates a `DataGenerator` and calls:
-  - `generator.generateClasses();`
-  - `generator.generateGroupClassAssignments();`
-- Run the program once to generate the necessary data.
-- After the first successful generation, **comment this block back out** to avoid regenerating or duplicating data on subsequent runs.
+1. Open `src/Main.java`.
+2. Uncomment the block that creates a `DataGenerator` and calls:
+   - `generator.generateClasses();`
+   - `generator.generateGroupClassAssignments();`
+3. Run the program once to generate the necessary data.
+4. After the first successful generation, **comment this block back out** to avoid regenerating or duplicating data on subsequent runs.
 
 ### Running Genetic Algorithm Experiments
 
 The Java entry point is `src/Main.java`. When run in its default (post–data-generation) state:
-- It executes the genetic algorithm **10 times** using:
-  - `for (int i = 1; i <= 10; i++) { ... }`
-- For each run `i`, it:
-  - Runs `GeneticAlgorithm`,
-  - Writes `statistics.txt` and timetable outputs under `output/i/`.
+1. It executes the genetic algorithm **10 times** using:
+   - `for (int i = 1; i <= 10; i++) { ... }`
+2. For each run `i`, it:
+   - Runs `GeneticAlgorithm`,
+   - Writes `statistics.txt` and timetable outputs under `output/i/`.
 
 ### Summarizing Results
 
 After `Main.java` finishes all 10 runs and the `output/1` to `output/10` folders exist:
-- Run `results_generation.py`.
-- This script reads each `output/i/statistics.txt` file,
-- Computes summary statistics across the experiments, and
-- Writes a consolidated CSV file to `output/results.csv`.
+1. Run `results_generation.py`.
+2. The script reads each `output/i/statistics.txt` file,
+3. Computes summary statistics across the experiments, and
+4. Writes a consolidated CSV file to `output/results.csv`.
 
 ### Trying Different Genetic Algorithm Operator Combinations
 
