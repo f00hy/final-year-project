@@ -1,0 +1,48 @@
+Year 1 Trimester 3
+
+- Course 1
+  - Code: UCCD1024
+  - Name: DATA STRUCTURE AND ALGORITHMIC PROBLEM SOLVING
+  - Class per week: 3H lecture and 2H practical
+  - Lecturer:
+    - Ts Dr Goh Chuan Meng
+    - Ts Lai Siew Cheng
+- Course 2
+  - Code: UCCD1203
+  - Name: DATABASE DEVELOPMENT AND APPLICATIONS
+  - Class per week: 2H lecture and 2H practical
+  - Lecturer:
+    - Cik Norazira Binti A Jalil 
+    - Cik Ana Nabilah Binti Sa'uadi
+    - Dr Altahir Abdalla Altahir Mohammed
+    - Puan Lyana Izzati Binti Mohd Asri
+    - Ts Saravanan a/l Subbiah
+    - Dr Zurida Binti Ishak
+- Course 3
+  - Code: UCCD2003
+  - Name: OBJECT-ORIENTED SYSTEMS ANALYSIS AND DESIGN
+  - Class per week: 3H lecture and 1H tutorial
+  - Lecturer:
+    - Ts Dr Ku Chin Soon
+    - Ts Dr Mogana a/p Vadiveloo
+    - Dr Tahayna Bashar M. A.
+    - Cik Puteri Nursyawati Binti Azzuri
+- Course 4
+  - Code: UCCM1353
+  - Name: BASIC ALGEBRA
+  - Class per week: 3H lecture and 1H tutorial
+  - Lecturer:
+    - Ms Lim Shun Jinn
+- Course 5
+  - Code: UCCM1363
+  - Name: DISCRETE MATHEMATICS
+  - Class per week: 3H lecture and 1H tutorial
+  - Lecturer:
+    - Dr Nur Amalina Binti Mat Jan
+    - Ms Song Poh Choo
+- Course 6
+  - Code: MPU3152
+  - Name: PENGHAYATAN ETIKA DAN PERADABAN
+  - Class per week: 2H lecture
+  - Lecturer:
+    - Puan Sarah Binti Shamshul Anwar
